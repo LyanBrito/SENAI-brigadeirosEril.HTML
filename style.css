@@ -8,10 +8,11 @@ body {
 
     background-color: #EDECE4;
     border: 10px solid #CBC6B9;
+    
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: space-around;
 }
 main {
     display: flex;
@@ -21,11 +22,27 @@ main {
     margin-top: 76px;
 
 }
-
 main > div {
    width: 100%;
 
 }
+div > p {
+    font-size: 18px;
+    color: black;
+    font-family: "PT Mono", monospace;
+    line-height: 30px;
+    color: #2A2426;
+
+
+}
+.textDay {
+    font-size: 18px;
+    color: black;
+    font-family: "PT Mono", monospace;
+    line-height: 30px;
+    color: #2A2426;
+}
+
 .logo {
     width: 201px;
     height: 126px;
@@ -44,15 +61,6 @@ span {
 
 }
 
-.textDay {
-    font-size: 18px;
-    color: black;
-    font-family: "PT Mono", monospace;
-    line-height: 30px;
-    color: #2A2426;
-
-}
-
 .markerGreen {
     width: 12px;
     height: 12px;
@@ -66,10 +74,10 @@ span {
     height: 82px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-top: 60px;
+    justify-content: center;    
     border-right: 2px solid #2A2426;
     border-bottom: 2px solid #2A2426;
+    
 
 }
 
@@ -77,25 +85,61 @@ span {
     width: 318px;
     height: 82px;
     border-right: 2px solid #2A2426;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
 
 }
+.textWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
 
+}
 .textNumber {
-    margin-top: 60px;
-    font-family: "PT Mono", monospace;
+
+    font-family: "Aref Ruqaa", serif;
     line-height: 30px;
     color: #988C77;
 
 }
-.textLocation > h1 {
-    margin-top: 40px;
+.textWrapper > h1 {
+   letter-spacing: -55px;
+   font-family: "PT Mono", monospace;
     font-size: 220px; 
     color: #2A2426;
+    font-weight: 100;
 
 
 }
 section {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 
+    gap: 60px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+.lineDiv {
+    margin-top: 14px;
+    align-items: center;  
+    border: 1px solid black;
+    width: 285px;
+    height: 2px;
+  
+}
+.menuTitle {
+    display: flex;
+    justify-content: center;
+    font-family: "Aref Ruqaa", serif;
+    font-size: 24px;
+    font-weight: 100;
+
+}
+.menuOptions {
+    display: flex;
+    gap: 10px;
 }
