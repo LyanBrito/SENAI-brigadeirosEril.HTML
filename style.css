@@ -116,20 +116,38 @@ section {
     display: flex;
     justify-content: space-between;
 
-    gap: 60px;
+    gap: 140px;
+    margin-top: 114px;
 }
 .menu{
     display: flex;
     justify-content: center;
     gap: 52px;
+    height: 30px;
+
 }
+.menu > h1 {
+    font-family: "PT Mono",monospace;
+    font-size: 18px;
+    font-weight: 100;
+    align-self: center;
+    
+}
+
 .lineDiv {
-    margin-top: 14px;
+    align-self: center;
     align-items: center;  
-    border: 1px solid black;
+    background-color: #2A2426;
     width: 285px;
     height: 2px;
   
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+
 }
 .menuTitle {
     display: flex;
@@ -142,4 +160,25 @@ section {
 .menuOptions {
     display: flex;
     gap: 10px;
+}
+.dishes {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.price {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.menuImg {
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+.menuImg > img {
+    padding: 50px 0px;
+
 }
