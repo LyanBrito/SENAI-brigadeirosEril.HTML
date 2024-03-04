@@ -1,3 +1,6 @@
+@import url('https://fonts.cdnfonts.com/css/pt-mono');
+@import url('https://fonts.cdnfonts.com/css/aref-ruqaa');
+
 * {
     padding: 0px;
     margin: 0px;
@@ -8,12 +11,13 @@ body {
 
     background-color: #EDECE4;
     border: 10px solid #CBC6B9;
-    
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    gap: 116px;
 }
+
 main {
     display: flex;
     justify-content: space-between;
@@ -22,11 +26,13 @@ main {
     margin-top: 76px;
 
 }
-main > div {
-   width: 100%;
+
+main>div {
+    width: 100%;
 
 }
-div > p {
+
+p {
     font-size: 18px;
     color: black;
     font-family: "PT Mono", monospace;
@@ -35,6 +41,7 @@ div > p {
 
 
 }
+
 .textDay {
     font-size: 18px;
     color: black;
@@ -49,11 +56,13 @@ div > p {
 
 
 }
-main > img {
+
+main>img {
     width: 680px;
     height: 875px;
 
 }
+
 span {
     display: flex;
     align-items: center;
@@ -64,8 +73,8 @@ span {
 .markerGreen {
     width: 12px;
     height: 12px;
-     border-radius: 12px;
-     background-color: #1AB912;
+    border-radius: 12px;
+    background-color: #1AB912;
 
 }
 
@@ -74,10 +83,10 @@ span {
     height: 82px;
     display: flex;
     flex-direction: column;
-    justify-content: center;    
+    justify-content: center;
     border-right: 2px solid #2A2426;
     border-bottom: 2px solid #2A2426;
-    
+
 
 }
 
@@ -90,12 +99,14 @@ span {
     gap: 60px;
 
 }
-.textWrapper{
+
+.textWrapper {
     display: flex;
     flex-direction: column;
     gap: 60px;
 
 }
+
 .textNumber {
 
     font-family: "Aref Ruqaa", serif;
@@ -103,82 +114,106 @@ span {
     color: #988C77;
 
 }
-.textWrapper > h1 {
-   letter-spacing: -55px;
-   font-family: "PT Mono", monospace;
-    font-size: 220px; 
+
+.textWrapper>h1 {
+    letter-spacing: -55px;
+    font-family: "PT Mono", monospace;
+    font-size: 220px;
     color: #2A2426;
     font-weight: 100;
 
 
 }
+
 section {
     display: flex;
-    justify-content: space-between;
-
-    gap: 140px;
-    margin-top: 114px;
-}
-.menu{
-    display: flex;
     justify-content: center;
+    gap: 60px;
+    width: 1200px;
+    height: 607px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
     gap: 52px;
-    height: 30px;
+    height: fit-content;
 
 }
-.menu > h1 {
-    font-family: "PT Mono",monospace;
+
+.menu>h1 {
+    font-family: "PT Mono", monospace;
     font-size: 18px;
     font-weight: 100;
     align-self: center;
-    
+
 }
 
+
 .lineDiv {
-    align-self: center;
-    align-items: center;  
     background-color: #2A2426;
     width: 285px;
     height: 2px;
-  
-}
-
-.options {
-    display: flex;
-    flex-direction: column;
-    gap: 27px;
 
 }
-.menuTitle {
+
+menu>h1 {
     display: flex;
-    justify-content: center;
+
     font-family: "Aref Ruqaa", serif;
     font-size: 24px;
     font-weight: 100;
+}
+
+/* codiigo do professor */
+menu {
+    display: flex;
+    flex-direction: row;
+    gap: 126px;
 
 }
-.menuOptions {
+
+li {
     display: flex;
     gap: 10px;
-}
-.dishes {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-}
-.price {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-}
-.menuImg {
-    display: flex;
-    flex-direction: column;
-   
+    font-family: "Aref Ruqaa", serif;
+    font-size: 18px;
+    color: #988C77;
 
 }
 
-.menuImg > img {
-    padding: 50px 0px;
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title-menu {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    gap: 50px;
+
+}
+
+.main-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+
+}
+
+.main-menu>h3 {
+    font-family: "Aref Ruqaa", serif;
+    font-size: 24px;
+    font-weight: 30;
+    padding-left: 60px;
 
 }
