@@ -32,7 +32,10 @@ main>div {
 
 }
 
-p, input, label, button {
+p,
+input,
+label,
+button {
     font-size: 18px;
     color: black;
     font-family: "PT Mono", monospace;
@@ -107,17 +110,20 @@ span {
 
 }
 
-.textNumber, button {
+.textNumber,
+button {
 
     font-family: "Aref Ruqaa", serif;
     line-height: 30px;
     color: #988C77;
 
 }
+
 .textFont {
     font-family: "PT Mono", monospace;
 
 }
+
 .textWrapper>h1 {
     letter-spacing: -55px;
     font-family: "PT Mono", monospace;
@@ -204,10 +210,12 @@ ul {
     height: 2px;
 
 }
+
 .lineContact {
     width: 243px;
 
 }
+
 .main-menu {
     display: flex;
     flex-direction: column;
@@ -233,26 +241,31 @@ form {
     flex-direction: column;
 
 }
-form > div {
+
+form>div {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
-form > div > p {
+
+form>div>p {
     text-align: right;
 
 }
+
 .column {
     display: flex;
     flex-direction: column;
     width: 388px;
 }
+
 input {
     height: 40px;
     border: 2px solid #988C77;
     background-color: transparent;
 
 }
+
 textarea {
     border: 2px solid #988C77;
     background: transparent;
@@ -260,10 +273,12 @@ textarea {
 
 
 }
-div>.column:last-child{
+
+div>.column:last-child {
     width: 263px;
 
 }
+
 button {
     width: 200px;
     height: 40px;
@@ -271,7 +286,8 @@ button {
     border: 2px solid #988C77;
     box-shadow: 5px 5px 0px -2px #CBC6B9, 5px 5px 0px 0px #988C77;
 }
-font > div:last-child {
+
+font>div:last-child {
     margin-top: 21px;
 
 }
@@ -284,14 +300,17 @@ iframe {
     margin-top: 48px;
 }
 
-/* }
-map {
-    height:  226px;
-    
-    margin-top: 48px;
+footer {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2A2426;
+    box-shadow: 0px 0px 0px 10px #2A2426;
+}
+
+footer>p {
+    color: #EDECE4;
 
 }
-iframe {
-    width: 100%;
-    height: 28%;
-} */
