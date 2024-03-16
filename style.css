@@ -114,12 +114,12 @@ button {
 
 section {
     display: flex;
-    justify-content: flex-start;
+    align-items: center;
     gap: 60px;
     width: 1200px;
     margin-left: 10px;
 }
-
+ 
 .menu {
     display: flex;
     align-items: center;
@@ -269,7 +269,11 @@ font>div:last-child {
     margin-top: 21px;
 
 }
+map {
+    display: flex;
+    justify-content: center;
 
+}
 
 iframe {
     width: 679px;
@@ -295,6 +299,10 @@ footer>p {
 
 @media(max-width: 520px){
 
+    body {
+        gap:80px
+
+    }
     main {
         flex-direction: column;
         width: 100%;
@@ -313,4 +321,68 @@ footer>p {
         letter-spacing: 0px;
     
     }
+    .text-location {
+        gap:24px;
+
+    }
+    section {
+        flex-direction: column;
+        width: 100%;
+        gap: 35px;
+
+    }
+    menu>img {
+        width: 200px;
+        height: 200px;
+
+    }
+    menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 48px;
+
+    }
+    .title-section {
+        gap: 23px;
+
+    }
+    .main-menu{
+        align-items: center;
+
+    }
+    form > div {
+        flex-direction: column;
+        gap: 20px;
+
+    }
+    .main-menu>h3 {
+        padding-left: 0px;
+
+    }
+    .contacts {
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    form {
+        width: 100%;
+    }
+    form :nth-child(3){
+        display: flex;
+        flex-direction: column  ;
+    }
+    .column, div > .column:last-child  {
+        width: 100%;
+
+    }
+    iframe {
+        width: 80%;
+        
+    }
+    footer {
+        height: 120px;
+    }
+
+    
 }
