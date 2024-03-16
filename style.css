@@ -9,8 +9,8 @@
 
 body {
 
-    background-color: #EDECE4;
-    border: 10px solid #CBC6B9;
+    background-color: #CDDACE;
+    border: 10px solid #3A5A40;
 
     display: flex;
     flex-direction: column;
@@ -33,7 +33,7 @@ button {
     font-size: 18px;
     font-family: "PT Mono", monospace;
     line-height: 35px;
-    color: #2A2426;
+    color: #284134;
 
 }
 
@@ -61,7 +61,7 @@ span {
     width: 12px;
     height: 12px;
     border-radius: 12px;
-    background-color: #1AB912;
+    background-color: #31C076;
 
 }
 
@@ -71,8 +71,8 @@ span {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-right: 2px solid #2A2426;
-    border-bottom: 2px solid #2A2426;
+    border-right: 2px solid #284134;
+    border-bottom: 2px solid #284134;
 
 
 }
@@ -80,7 +80,7 @@ span {
 .text-location {
     width: 318px;
     height: 82px;
-    border-right: 2px solid #2A2426;
+    border-right: 2px solid #284134;
     display: flex;
     flex-direction: column;
     gap: 60px;
@@ -99,14 +99,14 @@ button {
 
     font-family: "PT Mono", monospace;
     line-height: 30px;
-    color: #988C77;
+    color: #284134;
 
 }
 .hero-wrapper>h1 {
     letter-spacing: -55px;
     font-family: "PT Mono", monospace;
     font-size: 220px;
-    color: #2A2426;
+    color: #284134;
     font-weight: 100;
 
 
@@ -114,7 +114,7 @@ button {
 
 section {
     display: flex;
-    align-items: center;
+ 
     gap: 60px;
     width: 1200px;
     margin-left: 10px;
@@ -157,7 +157,7 @@ li {
     gap: 10px;
     font-family: "Aref Ruqaa", serif;
     font-size: 18px;
-    color: #988C77;
+    color: #284134;
 
 }
 
@@ -183,7 +183,7 @@ ul {
 }
 
 .line-div {
-    background-color: #2A2426;
+    background-color: #284134;
     width: 285px;
     height: 2px;
 
@@ -239,13 +239,13 @@ form>div>p {
 
 input {
     height: 40px;
-    border: 2px solid #988C77;
+    border: 2px solid #284134;
     background-color: transparent;
 
 }
 
 textarea {
-    border: 2px solid #988C77;
+    border: 2px solid #284134;
     background: transparent;
     margin-bottom: 20px;
 
@@ -261,8 +261,8 @@ button {
     width: 200px;
     height: 40px;
     background: transparent;
-    border: 2px solid #988C77;
-    box-shadow: 5px 5px 0px -2px #CBC6B9, 5px 5px 0px 0px #988C77;
+    border: 2px solid #284134;
+    box-shadow: 5px 5px 0px -2px #CBC6B9, 5px 5px 0px 0px #284134;
 }
 
 font>div:last-child {
@@ -274,11 +274,15 @@ map {
     justify-content: center;
 
 }
+.main-menu {
+    width: 345px;
+
+}
 
 iframe {
     width: 679px;
     height: 226px;
-    box-shadow: 0px 0px 0px 10px #CBC6B9;
+    box-shadow: 0px 0px 0px 10px #284134;
     margin-top: 48px;
 }
 
@@ -288,8 +292,8 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #2A2426;
-    box-shadow: 0px 0px 0px 10px #2A2426;
+    background-color: #284134;
+    box-shadow: 0px 0px 0px 10px #284134;
 }
 
 footer>p {
@@ -327,6 +331,7 @@ footer>p {
     }
     section {
         flex-direction: column;
+        align-items: center;
         width: 100%;
         gap: 35px;
 
@@ -348,6 +353,7 @@ footer>p {
     }
     .main-menu{
         align-items: center;
+        width: 100%;
 
     }
     form > div {
