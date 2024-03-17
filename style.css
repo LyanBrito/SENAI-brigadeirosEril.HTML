@@ -26,6 +26,7 @@ main {
     margin-top: 76px;
 
 }
+
 p,
 input,
 label,
@@ -37,7 +38,7 @@ button {
 
 }
 
-.hero-wrapper > img {
+.hero-wrapper>img {
     width: 201px;
     height: 126px;
 
@@ -94,16 +95,17 @@ span {
 
 }
 
-.text-number,
-button {
+.text-number {
 
     font-family: "PT Mono", monospace;
     line-height: 30px;
-    color: #284134;
+    color: #92B18A;
 
 }
+
 .hero-wrapper>h1 {
     letter-spacing: -55px;
+    padding-top: 70px;
     font-family: "PT Mono", monospace;
     font-size: 220px;
     color: #284134;
@@ -114,12 +116,12 @@ button {
 
 section {
     display: flex;
- 
+
     gap: 60px;
     width: 1200px;
     margin-left: 10px;
 }
- 
+
 .menu {
     display: flex;
     align-items: center;
@@ -145,7 +147,6 @@ menu>h1 {
     font-weight: 100;
 }
 
-/* codiigo do professor */
 menu {
     display: flex;
     gap: 126px;
@@ -157,7 +158,7 @@ li {
     gap: 10px;
     font-family: "Aref Ruqaa", serif;
     font-size: 18px;
-    color: #284134;
+    color: #92B18A;
 
 }
 
@@ -182,6 +183,11 @@ ul {
 
 }
 
+.title-section>p {
+
+    color: #588157;
+}
+
 .line-div {
     background-color: #284134;
     width: 285px;
@@ -190,7 +196,7 @@ ul {
 }
 
 .line-contact {
-    width: 243px;
+    width: 103px;
 
 }
 
@@ -262,18 +268,36 @@ button {
     height: 40px;
     background: transparent;
     border: 2px solid #284134;
-    box-shadow: 5px 5px 0px -2px #CBC6B9, 5px 5px 0px 0px #284134;
+    box-shadow: 5px 5px 0px -2px #8B9888, 5px 5px 0px 0px #284134;
+    transition: 0.2s;
 }
+button:hover {
+    border-color: #588157;
+    background-color: #92B18A;
+    box-shadow: 5px 5px 0px -2px #6c8b64, 5px 5px 0px 0px #588157;
+    color: #588157;
+
+}
+button:active {
+    background-color: #8B9888;
+    color: #CDDACE;
+    border-color: #284134;
+    box-shadow: 5px 5px 0px -2px #8B9888, 5px 5px 0px 0px #284134;
+
+}
+
 
 font>div:last-child {
     margin-top: 21px;
 
 }
+
 map {
     display: flex;
     justify-content: center;
 
 }
+
 .main-menu {
     width: 345px;
 
@@ -282,7 +306,7 @@ map {
 iframe {
     width: 679px;
     height: 226px;
-    box-shadow: 0px 0px 0px 10px #284134;
+    box-shadow: 0px 0px 0px 10px #588157;
     margin-top: 48px;
 }
 
@@ -301,34 +325,39 @@ footer>p {
 
 }
 
-@media(max-width: 520px){
+@media(max-width: 520px) {
 
     body {
-        gap:80px
-
+        gap: 80px
     }
+
     main {
         flex-direction: column;
         width: 100%;
         height: auto;
         align-items: center;
     }
-    main > img {
+
+    main>img {
         display: none;
     }
+
     .hero-wrapper {
         align-items: center;
 
     }
-    .hero-wrapper > :nth-child(3) {
+
+    .hero-wrapper> :nth-child(3) {
         font-size: 100px;
         letter-spacing: 0px;
-    
-    }
-    .text-location {
-        gap:24px;
 
     }
+
+    .text-location {
+        gap: 24px;
+
+    }
+
     section {
         flex-direction: column;
         align-items: center;
@@ -336,59 +365,80 @@ footer>p {
         gap: 35px;
 
     }
+
     menu>img {
         width: 200px;
         height: 200px;
 
     }
+
     menu {
         flex-direction: column;
         align-items: center;
         gap: 48px;
 
     }
+
     .title-section {
         gap: 23px;
 
     }
-    .main-menu{
+
+    .main-menu {
         align-items: center;
         width: 100%;
 
     }
-    form > div {
+
+    form>div {
         flex-direction: column;
         gap: 20px;
 
     }
+
     .main-menu>h3 {
         padding-left: 0px;
 
     }
+
     .contacts {
         margin-left: 0px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     form {
         width: 100%;
     }
-    form :nth-child(3){
+
+    form :nth-child(3) {
         display: flex;
-        flex-direction: column  ;
+        flex-direction: column;
     }
-    .column, div > .column:last-child  {
+
+    .column,
+    div>.column:last-child {
         width: 100%;
 
     }
+
     iframe {
         width: 80%;
-        
-    }
-    footer {
-        height: 120px;
+
     }
 
-    
+    footer {
+        height: 250px;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: flex-start;
+       
+    }
+    footer>img {
+        width: 70px;
+        height: 70px;
+
+    }
+
 }
